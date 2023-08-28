@@ -1,0 +1,7 @@
+site_name: "devx-demo-0827-2040"
+docs_dir: docs
+site_description: "Template based App"
+nav:
+  - Introduction: index.md
+plugins:
+  - techdocs-core
