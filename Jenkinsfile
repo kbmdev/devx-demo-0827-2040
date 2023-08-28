@@ -14,7 +14,7 @@ TECHDOCS_S3_TENANT_NAME = "http://minio.minio"
 TECHDOCS_S3_BUCKET_NAME = "kbm-backstage-techdocs"
 // lbipaddr="44.205.217.18"
 // Use Private IP Address of Main Node
-lbipaddr="10.18.76.63"
+lbipaddr="10.18.76.194"
 
 podTemplate(label: 'demo-customer-pod', cloud: 'kubernetes', serviceAccount: 'jenkins', imagePullSecrets: ['jenmtk8sdkrreg'], 
   containers: [
